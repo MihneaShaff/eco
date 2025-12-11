@@ -15,7 +15,6 @@ internal class EntityDeathByEntityBuilder {
     var xp = 0
 
     fun push() {
-        val event = EntityDeathByEntityEvent(victim!!, damager!!, drops!!, xp, deathEvent!!)
-        Bukkit.getPluginManager().callEvent(event)
+        // Disabled
     }
 }
